@@ -1,0 +1,93 @@
+.container-form {
+    background-image: url("../img/activities/beautiful-scenery-rock-formations-by-sea-queens-bath-kauai-hawaii-sunset.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    place-content: center;
+    
+}
+
+legend {
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* .form{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 120px 129px;
+    gap: 50px;
+    border-radius: 20px;
+    background: rgba(5, 5, 5, 0.84);
+    justify-content: center;
+    align-items: center;
+}
+
+.form input {
+    width: 600px;
+    height: 30px;
+    border-radius: 10px;
+    background: rgba(217, 217, 217, 0.46);
+    font-size: 20px;
+    color: white;
+    font-family: quicksand;
+}
+ .form textarea{
+    width: 100%;
+    border-radius: 10px;
+    background: rgba(217, 217, 217, 0.46);
+    font-size: 20px;
+    color: white;
+    font-family: quicksand;
+    height: 100px;  
+    resize: none;
+} 
+
+.form label{
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+} */
+
+.form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 120px 129px;
+    gap: 50px;
+    border-radius: 20px;
+    background: rgba(5, 5, 5, 0.84);
+    justify-content: center;
+    align-items: center;
+}
+
+.form input,
+.form textarea {
+    width: 100%; /* Cambiado para que el textarea se extienda horizontalmente al ancho del contenedor */
+    height: 100px; /* Ajustado para controlar la altura del textarea */
+    border-radius: 10px;
+    background: rgba(217, 217, 217, 0.46);
+    font-size: 20px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    resize: none; /* Esto evita que el usuario pueda cambiar el tamaño del textarea */
+}
+
+.form label {
+    color: #FFF;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

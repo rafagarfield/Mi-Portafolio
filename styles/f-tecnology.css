@@ -1,0 +1,24 @@
+.container-tecnology{
+    display: flex;
+    flex-direction: column;
+    place-itemS: center;
+    padding: 50px 50px;
+}
+
+.container-image{
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    padding: 50px 46px;
+    gap: 99px;
+
+}
+.container-image img {
+    width: 300px;
+    height: auto;
+}
+
+.container-image img:hover {
+    transform: scale(0.5); /* Escalar la imagen al 105% cuando el cursor esté sobre ella */
+}
+

@@ -1,0 +1,37 @@
+.about-me-container{
+    display: flex;
+    flex-direction: row;
+    gap: 96px;
+    background: #1E2225;
+    padding: 45px 40px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    gap:72px;
+    align-items: flex-start;
+    padding: 0px 62px;
+    color: #ffffff;;
+}
+
+
+.img-about-me{
+    width: 459px;
+    height: 611px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 19px 14px 4px 0px rgba(135, 117, 117, 0.44);
+
+}
+
+.text-about-me{
+    display: flex;
+    justify-content: center;
+}
+
+.parrafo{
+    line-height: 40px;
+}

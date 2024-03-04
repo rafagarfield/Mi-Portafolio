@@ -1,0 +1,50 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+}
+
+.container {
+    background-image: url("../img/general/natures-beauty-reflected-tranquil-mountain-waters-generative-ai.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff; /* Color del texto */
+    text-align: center; /* Alineación del texto */
+    text-shadow: -7px 9px 4px #000;
+    font-family: Quicksand;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.button{
+    display: flex;
+    padding: 5px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: #F77E23;
+    width: 100px;
+}
+
+h2 {
+    color: #fc9e06;
+    font-family: Quicksand;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

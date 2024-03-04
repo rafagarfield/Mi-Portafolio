@@ -1,0 +1,29 @@
+header{
+    margin:0;
+}
+.nav-bar {
+    margin:0;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 60px;
+    place-content: center;
+    background: rgba(0, 0, 0, 0.59);
+    padding: 20px 400px;
+}
+
+.nav-list li {
+    margin: 0;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #ffffff; /* color del texto de los enlaces */
+}
+
+.nav-list li a:hover {
+    color: #e1ab0b; /* color del texto de los enlaces al pasar el ratón */
+}
