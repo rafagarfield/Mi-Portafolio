@@ -71,8 +71,7 @@ legend {
     align-items: center;
 }
 
-.form input,
-.form textarea {
+.form input{
     width: 100%; /* Cambiado para que el textarea se extienda horizontalmente al ancho del contenedor */
     height: 100px; /* Ajustado para controlar la altura del textarea */
     border-radius: 10px;
@@ -81,6 +80,7 @@ legend {
     color: white;
     font-family: 'Quicksand', sans-serif;
     resize: none; /* Esto evita que el usuario pueda cambiar el tamaño del textarea */
+    padding: 10px;
 }
 
 .form label {
